@@ -48,12 +48,12 @@ export default {
         if(number % num === 0 && number >  num)
         {
           nums[i].classList.add('active')
-          //console.log('divisor', num)
+
         }
-        if(number % num === 0 && number ==  num)
+        if(number ===  parseInt(num))
         {
           nums[i].classList.add('chosen')
-          //console.log('divisor', num)
+
         }
       }
     },
@@ -98,6 +98,8 @@ export default {
     border: 2px  solid  white;
     text-align: center;
     line-height: 2em;
+    box-shadow: 8px 8px rgba(0,0,0,0.4);
+
 
 	}
 

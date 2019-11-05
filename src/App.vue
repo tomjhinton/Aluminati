@@ -30,7 +30,7 @@ export default {
 
 #app{
   background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%,     rgba(9,121,76,1.16150210084033612) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%,     rgba(9,121,76,1.16150210084033612) 35%, rgba(0,212,255,1) 100%);
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -47,9 +47,10 @@ input{
   border-radius: 50%;
   font-size: 2em;
   font-family: "Helvetica Neue";
-  border: 2px  solid white;
+  border: 4px  solid white;
   background-color: rgba(0,0,0,0);
   color: white;
+  width:33%;
 
 }
 </style>
